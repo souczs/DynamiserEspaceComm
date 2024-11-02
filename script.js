@@ -46,4 +46,7 @@ form.addEventListener("submit", (e) => {
         // Ajouter le code dans la div #comment-list
         listComm.appendChild(newDiv1);
     }
+
+    // Effacer les données du formulaire une fois les informations envoyées
+    form.reset();
 });
