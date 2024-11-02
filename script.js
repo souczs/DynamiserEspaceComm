@@ -1,8 +1,9 @@
 // Récupérer le formulaire
 let form = document.querySelector("form");
 
-// Bloquer submit form et vérifier les conditions
+// Submit les données ou afficher le message d'erreur
 form.addEventListener("submit", (e) => {
+    // Bloquer le rechargement de la page
     e.preventDefault();
 
     // Récupérer les éléments du formulaire et le msg d'erreur
